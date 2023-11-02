@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bir{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.bira{
+width: 100%;
+height: 780px;
+display: flex;
+gap: 50px;
+justify-content: center;
+align-items: center;
+padding: 20px 40px;
+}
+.birsol{
+width: 500px;
+height: 550px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+padding: 30px 20px;
+h6{
+color: rgb(255, 81, 0);
+position: relative;
+margin-left: 20px;
+&::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    left: -20px;
+    top: calc((100% - 2px)/2);
+    background-color: rgb(255, 0, 0) ;
+}
+}
+}
+.birsola{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.birsol1{
+    width: 90px;
+    height: 90px;
+}
+
+.birsag{
+width: 500px;
+height: 500px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.birsagicon{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi-play-circle{
+    background-color: rgb(211, 110, 16);
+    border-radius: 50px;
+    padding: 30px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.iki{
+    width: 100%;
+    height: 800px;
+    padding: 20px 120px;
+    margin-top: 50px;
+}
+.ikia{
+    max-width: 100%;
+    height: 100%;
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 61, 61);
+}
+.ikisol{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h6{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        margin-left: 20px;
+        &::before{
+            content: '';
+            width: 20px;
+            height: 2px;
+            position: absolute;
+            left: -20px;
+            top: calc((100% - 2px)/2);
+            background-color: rgb(255, 0, 0) ;
+        }
+        }
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+}
+.ikib{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 20px;
+    .bi-telephone-outbound-fill{
+        background-color: rgb(255, 98, 0);
+        font-size: 30px;
+        padding: 10px;
+        position: absolute;
+        left: 80px;
+        border-radius: 22px; 
+    }
+}
+.ikic{
+    width: 200px;
+    height: 120px;
+    position: relative;
+    left: 40px;
+    margin-top: 130px;
+    background-color: white;
+    .bi-envelope{
+        background-color: rgb(255, 98, 0);
+        font-size: 30px;
+        position: absolute;
+        left: 80px;
+        padding: 10px;
+        border-radius: 22px; 
+    }
+}
+.ikisag{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.name{
+    height: 40px;
+}
+.email{
+    height: 40px;
+}
+.phone{
+    height: 40px;
+}
+.number{
+    height: 40px;
+}
+.day{
+    height: 40px;
+}
+.time{
+    height: 40px;
+}
+.message1{
+    width: 335px;
+    height: 230px;
+}
+.make{
+    padding: 10px 110px;
+    background-color: rgb(229, 71, 3)
+}
+
